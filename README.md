@@ -6,7 +6,6 @@ Inhaltsverzeichnis
 - [Was in diesem Repo liegt](#was-in-diesem-repo-liegt)
   - [Formulare](#formulare)
   - [Öffentliche Unterlagen](#öffentliche-unterlagen)
-  - [Plenen](#plenen)
 - [Kontakt](#kontakt)
 
 ---
@@ -17,7 +16,6 @@ Die **machBar** ist eine genossenschaftlich organisierte Kneipe in Wittenberge (
 
 - **Gründungstermin:** 8. Juni 2026
 - **Eröffnung:** 1. September 2026
-- **Location:** Kranhaus, Am Steintor 3, 19322 Wittenberge
 - **Website:** <https://machbar-wittenberge.de>
 
 ## Was in diesem Repo liegt
@@ -30,13 +28,6 @@ Die **machBar** ist eine genossenschaftlich organisierte Kneipe in Wittenberge (
 ### Öffentliche Unterlagen
 
 - [`dokumente/praesentation/OnePager-Kneipe-Wittenberge.pdf`](dokumente/praesentation/OnePager-Kneipe-Wittenberge.pdf) — Kurzer Projekt-Überblick
-
-### Plenen
-
-- [`meetings/20260425-Plenum/`](meetings/20260425-Plenum/) — Plenum am 25. April 2026
-  - [`agenda.md`](meetings/20260425-Plenum/agenda.md) — Agenda
-  - [`praesentation.html`](meetings/20260425-Plenum/praesentation.html) — Präsentation als HTML-Slides
-  - [`praesentation.pdf`](meetings/20260425-Plenum/praesentation.pdf) — PDF-Export (A4 quer)
 
 ## Kontakt
 
