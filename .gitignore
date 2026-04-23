@@ -1,0 +1,25 @@
+# Ignore everything by default
+/*
+
+# Re-include directory traversal so whitelisted paths work
+!/.gitignore
+!/README.md
+!/dokumente/
+!/meetings/
+
+# Inside dokumente: only formulare (Absichtserklärung) and OnePager
+dokumente/*
+!dokumente/formulare/
+!dokumente/praesentation/
+dokumente/formulare/*
+!dokumente/formulare/absichtserklaerung.pdf
+!dokumente/formulare/absichtserklaerung.html
+dokumente/praesentation/*
+!dokumente/praesentation/OnePager-Kneipe-Wittenberge.pdf
+
+# Inside meetings: only the 25.04.2026 Plenum
+meetings/*
+!meetings/20260425-Plenum/
+
+# macOS cruft
+.DS_Store

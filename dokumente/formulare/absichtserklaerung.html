@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>machBar Wittenberge – Absichtserklärung</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 11pt;
+      color: #1a1a1a;
+      background: white;
+      padding: 20mm 20mm 20mm 20mm;
+      max-width: 210mm;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      border-bottom: 2px solid #1a1a1a;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    header .title {
+      font-size: 22pt;
+      font-weight: bold;
+      letter-spacing: 0.05em;
+    }
+
+    header .subtitle {
+      font-size: 10pt;
+      color: #555;
+      margin-top: 3px;
+    }
+
+    header .meta {
+      font-size: 9pt;
+      color: #555;
+      text-align: right;
+      line-height: 1.6;
+    }
+
+    h2 {
+      font-size: 13pt;
+      font-weight: bold;
+      margin: 14px 0 8px 0;
+      letter-spacing: 0.02em;
+    }
+
+    .intro {
+      font-size: 10.5pt;
+      line-height: 1.6;
+      color: #333;
+      margin-bottom: 12px;
+    }
+
+    .section {
+      margin-bottom: 12px;
+    }
+
+    .field-row {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 8px;
+    }
+
+    .field {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .field.full { flex: none; width: 100%; }
+    .field.w2 { flex: 2; }
+    .field.w3 { flex: 3; }
+
+    label {
+      font-size: 8.5pt;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #555;
+    }
+
+    .line {
+      border: none;
+      border-bottom: 1px solid #aaa;
+      height: 22px;
+      width: 100%;
+      background: transparent;
+    }
+
+    .checkbox-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 6px;
+    }
+
+    .checkbox-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 10.5pt;
+      line-height: 1.5;
+    }
+
+    .checkbox-box {
+      width: 14px;
+      height: 14px;
+      border: 1.5px solid #555;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .textarea-field {
+      border: 1px solid #aaa;
+      height: 60px;
+      width: 100%;
+      margin-top: 6px;
+      padding: 6px;
+      font-size: 10pt;
+    }
+
+    .textarea-label {
+      font-size: 9pt;
+      color: #555;
+      font-style: italic;
+      margin-top: 6px;
+      display: block;
+    }
+
+    .declaration-box {
+      border: 1.5px solid #1a1a1a;
+      padding: 10px 14px;
+      margin: 8px 0;
+      font-size: 10.5pt;
+      line-height: 1.6;
+      background: #fafafa;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 20px 0;
+    }
+
+    .sig-row {
+      display: flex;
+      gap: 30px;
+      margin-top: 18px;
+    }
+
+    .sig-field {
+      flex: 1;
+    }
+
+    .sig-line {
+      border-bottom: 1px solid #555;
+      height: 36px;
+      margin-bottom: 4px;
+    }
+
+    .sig-label {
+      font-size: 8pt;
+      color: #777;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .footer {
+      margin-top: 14px;
+      font-size: 8.5pt;
+      color: #888;
+      line-height: 1.5;
+      border-top: 1px solid #ddd;
+      padding-top: 10px;
+    }
+
+    @media print {
+      body { padding: 15mm; }
+      @page { size: A4; margin: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <div class="title">machBar</div>
+      <div class="subtitle">Genossenschaftskneipe Wittenberge</div>
+    </div>
+    <div class="meta">
+      machbar-wittenberge.de
+    </div>
+  </header>
+
+  <h2>Absichtserklärung zur Genossenschaftsgründung</h2>
+
+  <p class="intro">
+    Die machBar wird als eingetragene Genossenschaft (eG) gegründet. Mit dieser Absichtserklärung zeigst du, dass du dabei bist — und gibst dem Gründungsteam die Grundlage für die nächsten Schritte.
+  </p>
+
+  <!-- Persönliche Daten -->
+  <div class="section">
+    <h2>Angaben zur Person</h2>
+
+    <div class="field-row">
+      <div class="field">
+        <label>Vorname</label>
+        <div class="line"></div>
+      </div>
+      <div class="field">
+        <label>Nachname</label>
+        <div class="line"></div>
+      </div>
+    </div>
+
+    <div class="field-row">
+      <div class="field">
+        <label>Straße, Hausnummer</label>
+        <div class="line"></div>
+      </div>
+      <div class="field">
+        <label>PLZ, Ort</label>
+        <div class="line"></div>
+      </div>
+    </div>
+
+    <div class="field-row">
+      <div class="field">
+        <label>E-Mail</label>
+        <div class="line"></div>
+      </div>
+      <div class="field">
+        <label>Telefon</label>
+        <div class="line"></div>
+      </div>
+    </div>
+
+    <div class="field-row">
+      <div class="field">
+        <label>Dein Beruf / Deine Tätigkeit</label>
+        <div class="line"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Absichtserklärung -->
+  <div class="section">
+    <h2>Meine Absicht</h2>
+
+    <div class="declaration-box">
+      Ich beabsichtige, Mitglied der machBar Wittenberge eG zu werden und
+      <span style="display:inline-block; border-bottom: 1px solid #555; width: 36px; margin: 0 4px;">&nbsp;</span>
+      Genossenschaftsanteil(e) zum Wert von je 250 € zu zeichnen.
+      <br><span style="display:inline-block; margin-top:6px; color:#777; font-size:9.5pt;">Mindestbeteiligung: 2 Anteile = 500 €. Diese Erklärung ist nicht rechtsverbindlich.</span>
+    </div>
+
+    <div class="checkbox-group">
+      <div class="checkbox-item">
+        <div class="checkbox-box"></div>
+        <span>Ich bin bereit, am Gründungstermin (voraussichtlich 8. Juni 2026) teilzunehmen.</span>
+      </div>
+      <div class="checkbox-item">
+        <div class="checkbox-box"></div>
+        <span>Ich kann beim Aufbau der machBar (Juni–August 2026) helfen.</span>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- Gastroerfahrung -->
+  <div class="section">
+    <h2>Hintergrund & Mitarbeit</h2>
+
+    <p style="font-size:10pt; color:#555; margin-bottom:14px; line-height:1.6;">
+      Um den Betrieb zu planen, ist es hilfreich zu wissen, wer sich aktiv einbringen kann und möchte — sei es im Betrieb, beim Aufbau oder mit spezifischen Fähigkeiten.
+    </p>
+
+    <span class="textarea-label">Was kannst du einbringen? (z.B. Gastroerfahrung, handwerkliche Fähigkeiten, Verfügbarkeit, Ideen)</span>
+    <div class="textarea-field"></div>
+  </div>
+
+  <!-- Unterschrift -->
+  <div class="sig-row">
+    <div class="sig-field" style="flex: 1.2;">
+      <div class="sig-line"></div>
+      <div class="sig-label">Ort, Datum</div>
+    </div>
+    <div class="sig-field" style="flex: 2;">
+      <div class="sig-line"></div>
+      <div class="sig-label">Unterschrift</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <strong>Datenschutz:</strong> Deine Angaben werden vertraulich behandelt und ausschließlich vom machBar-Orgateam eingesehen. Zur Löschung deiner Daten genügt eine kurze E-Mail an <span style="color: #555;">orga@machbar-wittenberge.de</span>.
+  </div>
+
+</body>
+</html>
